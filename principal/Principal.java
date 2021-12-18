@@ -43,8 +43,24 @@ public class Principal {
 						lector.nextLine();
 					}
 				}
+				// ahora listamos los nombres y  sus notas medias
+				
+				for (int i=0; i<nalum;i++)
+				{
+					// calculamos la nota media del alumno "i-esimo"
+					for (int j=0;j<3;j++)
+					{
+						sumanotas=sumanotas+nota[i][j];
+						// lugar donde te pido que pongas un punto de interrupción condicional en el Ejecicio 2
+					}
+					
+					media=sumanotas/3;
+					
+					// imprimimos el alumno y su media
+					
+					System.out.println("El alumno "+nombre[i]+ " tiene una nota media de :"+media);
 
 
+				}
 	}
-
 }
