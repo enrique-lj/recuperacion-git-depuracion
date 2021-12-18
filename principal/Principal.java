@@ -4,7 +4,8 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Programa que pregunta datos de alumnos de una clase (nombre y tres notas) y luego los lista sacando su nota media
+			
+		System.out.println("Programa que calcula las medias de las notas.");
 		
 				Scanner lector = new Scanner(System.in);  // la "herramienta lectora"
 				
