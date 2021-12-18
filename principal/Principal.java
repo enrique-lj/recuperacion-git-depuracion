@@ -31,14 +31,15 @@ public class Principal {
 				for (int i=0 ; i<nalum;i++)
 				{
 					// el nombre
-					System.out.println("Introduzca el nombre del alumno nº "+i+1);
+					System.out.println("Introduzca el nombre del alumno nº "+(i+1));
 					nombre[i]=lector.nextLine();
 					
 					// las notas
-					for (int j=0;j<=3;j++);
+					for (int j=0;j<3;j++)
 					{
 						System.out.println("Introduzca la nota del alumno "+nombre[i]+" ");
-						lector.nextDouble();
+						nota[i][j]=lector.nextDouble();
+						lector.nextLine();
 					}
 				}
 
